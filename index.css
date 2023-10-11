@@ -1,0 +1,134 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(177, 203, 212);
+  margin-bottom: 30px; /* espace fin de page */
+}
+
+/* Style de base de la barre de navigation */
+nav {
+    background-color: rgb(177, 203, 212); /* Couleur de fond de la barre de navigation */
+    color: #fff; /* Couleur du texte */
+    font-size: 20px;
+    margin-top: 30px;
+    margin-left: 1080px;        
+
+}
+
+/* Style de la liste de liens */
+.navbar {   
+    margin: 0;
+    padding: 0;
+}
+
+/* Style des éléments de la liste (liens) */
+.navbar li {
+    display: inline; /* Afficher les éléments en ligne */
+    margin-left: 40px; /* Ajouter de l'espace entre les liens */
+}
+
+/* Style des liens */
+.navbar a {
+    text-decoration: none; /* Supprimer les soulignements par défaut des liens */
+    color: #000000; /* Couleur du texte des liens */
+}    
+
+.container1 {
+    margin-left: 100px;        
+    margin-top: 150px; /* Ajuste la marge supérieure pour le positionner verticalement */
+}
+
+p1 {
+    font-size: 20px; /* Ajuste la taille de la police si nécessaire */
+}
+
+.container2 {
+    margin-left: 170px;        
+}
+
+h1 {
+    font-size: 50px;
+}
+
+.container3 {
+    margin-top: 10px; /* Ajuste la marge supérieure pour le positionner verticalement */
+    margin-left: 180px;        
+
+}
+p2 {
+    font-size: 25px; /* Ajuste la taille de la police si nécessaire */
+}
+
+.badges1 {
+    margin-left: 655px;       
+    margin-top: 200px; /* Ajuste la marge supérieure pour le positionner verticalement */
+}
+
+h3 {
+    font-size: 25px; /* Ajuste la taille de la police si nécessaire */
+}
+
+.badges2 {
+    margin-left: 655px;       
+    margin-top: 200px; /* Ajuste la marge supérieure pour le positionner verticalement */
+}
+
+h4 {
+    font-size: 25px; /* Ajuste la taille de la police si nécessaire */
+}
+
+.badges3 {
+    margin-left: 655px  ;       
+    margin-top: 200px; /* Ajuste la marge supérieure pour le positionner verticalement */
+}
+
+h5 {
+    font-size: 25px; /* Ajuste la taille de la police si nécessaire */
+}
+
+/* Style du bouton GitHub */
+.github-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #333; /* Couleur de fond */
+    color: #fff; /* Couleur du texte */
+    border-radius: 16px;
+    text-decoration: none;
+    font-size: 16px;
+    margin-top: 40px; 
+    margin-left: 180px  ;   
+
+
+    
+}
+
+.github-button i {
+    margin-right: 10px; /* Espacement entre l'icône et le texte (ajustez selon vos besoins) */
+}
+/* Au survol du bouton */
+.github-button:hover {
+    background-color: #000; /* Couleur de fond au survol */
+}
+
+.discord-button {
+    display: inline-block;
+    background-color: #333; /* Couleur de fond Discord */
+    color: #fff; /* Couleur du texte */
+    border-radius: 16px;
+    text-decoration: none;
+    font-size: 16px;
+    padding: 10px 20px; /* Espacement du texte et de l'icône */
+}
+
+.discord-button i {
+    margin-right: 10px; /* Espacement entre l'icône et le texte (ajustez selon vos besoins) */
+}
+
+/* Au survol du bouton Discord */
+.discord-button:hover {
+    background-color:  #000; /* Couleur de fond Discord au survol */
+}
